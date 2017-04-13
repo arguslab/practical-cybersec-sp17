@@ -1,0 +1,11 @@
+SVM
+
+http://scikit-learn.org/stable/modules/svm.html
+
+Logistic Regression
+
+http://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+
+Decision Tree
+
+http://scikit-learn.org/stable/modules/tree.html

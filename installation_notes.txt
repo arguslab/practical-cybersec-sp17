@@ -1,0 +1,32 @@
+Installing up-to-date packages
+------------------------------
+
+sudo apt-get update && sudo apt-get -y upgrade
+
+Install pip
+----------
+
+sudo apt-get install python-pip
+
+
+Install dependencies: numpy, scipy
+----------------------------------
+
+sudo apt-get install build-essential python-dev python-numpy
+python-setuptools python-scipy libatlas-dev libatlas3-base
+
+Install plotting libraries
+--------------------------
+
+sudo apt-get install python-matplotlib
+
+sudo apt-get install graphviz
+
+pip install pydotplus
+
+
+Install scikit-learn
+--------------------
+
+pip install -U scikit-learn
+

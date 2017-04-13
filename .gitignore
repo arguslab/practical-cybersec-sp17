@@ -87,3 +87,15 @@ ENV/
 
 # Rope project settings
 .ropeproject
+
+# Emacs back up files
+
+*.*~
+
+# Mac
+
+.DS_Store
+
+# MS Word
+
+*.docx
