@@ -1,0 +1,20 @@
+Visualizing Classifier Output
+-----------------------------
+For SVM and logistic regression use any two features of your choice and use them
+to plot the visualization.  Decision Tree can be plotted with all the features.
+Save the figures in the current directory from where the code is executing.
+
+Logistic Regression visualization:
+----------------------------------
+http://scikit-learn.org/stable/auto_examples/linear_model/plot_iris_logistic.html
+
+SVM visualization:
+-----------------
+
+http://scikit-learn.org/stable/auto_examples/svm/plot_iris.html#sphx-glr-auto-examples-svm-plot-iris-py
+
+Decision Tree visualization:
+----------------------------
+
+http://scikit-learn.org/stable/modules/tree.html#classification
+
