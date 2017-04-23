@@ -28,6 +28,14 @@ def fit_classifier(clf, data, target):
 
     return fitted_clf
 
+def get_misclassified(clf, x_test, y_test):
+
+    misclassified = np.where(y_test != clf.predict(x_test))
+
+    print "Misclassified intance indices"
+    
+    print misclassified
+    
 def main():
 
     iris = datasets.load_iris()
@@ -46,6 +54,7 @@ def main():
 
     test_model(fitted_clf, x_test, y_test)
 
+    get_misclassified(fitted_clf, x_test, y_test)
     
 if __name__ == "__main__":
     main()
